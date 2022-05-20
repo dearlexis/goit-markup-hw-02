@@ -1,0 +1,80 @@
+body {
+  background-color: #fff;
+  color: #757575;
+}
+
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+}
+
+.list {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Логотип */
+
+.logo {
+  color: var(--accent-color);
+}
+.logo-black {
+  color: black;
+}
+.logo-white {
+  color: white;
+}
+a .logo {
+}
+
+/* Хедер. Навигация */
+
+.site-nav .link {
+  color: var(--title-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+/* Герой */
+.hero {
+}
+.hero-title {
+}
+
+/* Основной блок */
+
+.section-title {
+  color: var(--title-text-color);
+}
+
+/* Преимущества */
+
+.advantage-list .title {
+  color: var(--title-text-color);
+}
+
+/* Наша комада */
+
+.section.team {
+  background-color: #f5f4fa;
+}
+.team-list .title {
+  color: var(--title-text-color);
+}
+
+/* Футер */
+.footer {
+  background-color: #2f303a;
+}
+.contacts-footer > li > a {
+  color: rgba(255, 255, 255, 0.6);
+}
+.addres {
+  color: #fff;
+}
