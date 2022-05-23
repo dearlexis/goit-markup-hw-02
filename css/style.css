@@ -91,6 +91,10 @@ body {
   font-size: 16px;
   line-height: 1.8;
 }
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #188ce8;
+}
 
 /* Основной блок */
 /* Преимущества */
@@ -170,6 +174,7 @@ body {
 }
 .footer-addres {
   color: #fff;
+  font-style: normal;
   font-size: 14px;
   line-height: 1.17;
   letter-spacing: 0.03em;
